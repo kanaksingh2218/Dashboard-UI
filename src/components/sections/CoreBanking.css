@@ -1,0 +1,161 @@
+.core-section {
+  width: 100%;
+  background: #000D12; 
+  padding: 80px 0 150px 0; 
+  box-sizing: border-box;
+}
+
+.core-inner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px; 
+  
+  display: flex;
+  align-items: center; 
+  box-sizing: border-box;
+}
+
+.core-visuals {
+  width: 651px;
+  margin-left: -239px; 
+  flex-shrink: 0;
+}
+
+.core-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px; 
+  width: 590px;
+  margin-left: 278px; 
+}
+
+.core-headline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #E9F4F9;
+  margin: 0; 
+  width: 495.3px;
+}
+
+.core-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px; 
+  width: 100%;
+}
+
+.core-list-title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: #E9F4F9;
+  margin: 0;
+}
+
+.core-checklist {
+  display: flex;
+  flex-direction: row;
+  gap: 1px; 
+  width: 100%;
+  align-items: flex-start; 
+}
+
+.core-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font: 16px;
+}
+
+.core-column.col-1 {
+  width: 296px; 
+  gap:8px
+}
+
+.core-column.col-2 {
+  width: 265px; 
+  gap:8px;
+}
+
+.check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px; 
+  padding: 0; 
+}
+
+.check-icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.check-text {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #E9F4F9;
+  opacity: 0.8;
+  margin: 0;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1400px) {
+  .core-inner {
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .core-visuals {
+    width: 50%; 
+    margin-left: 0; 
+    flex-shrink: 1;
+  }
+  .core-content {
+    width: 50%; 
+    margin-left: 0; 
+  }
+}
+
+@media (max-width: 950px) {
+  .core-inner {
+    flex-direction: column; 
+    text-align: center;
+  }
+  .core-visuals, .core-content {
+    width: 100%; 
+    max-width: 100%;
+  }
+  .core-content {
+    margin: 40px auto 0 auto;
+    align-items: center;
+  }
+  .core-list-wrapper {
+    text-align: left; 
+  }
+  .core-headline {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .core-inner {
+    padding: 0 24px;
+  }
+  .core-headline {
+    font-size: 34px;
+  }
+  
+  .core-checklist {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .core-column {
+    width: 100% !important; 
+  }
+}

@@ -1,0 +1,22 @@
+.learn-more-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Chivo Mono', monospace;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #00B4FD;
+  text-decoration: none;
+  width: max-content;
+  transition: opacity 0.2s;
+  letter-spacing: 1px;
+}
+
+.learn-more-link:hover {
+  opacity: 0.8;
+}
+
+.learn-more-icon {
+  margin-left: 6px;
+}

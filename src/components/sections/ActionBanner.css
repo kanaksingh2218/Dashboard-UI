@@ -1,0 +1,131 @@
+/* ========== ACTION BANNER (FOOTER CTA) ========== */
+.action-banner-section {
+  width: 100%;
+  background: #000D12;
+  height: 316px; /* Your exact Figma height! */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.action-banner-inner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* Adds the 80px left/right spacing from Figma */
+  padding: 0 80px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* ========== TEXT COLUMN ========== */
+.action-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 607px;
+}
+
+.action-headline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #E9F4F9;
+  margin: 0;
+}
+
+.action-subtext {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #E9F4F9;
+  opacity: 0.7;
+  margin: 0;
+  max-width: 463px;
+}
+
+/* ========== BUTTON COLUMN ========== */
+.action-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-outline-action {
+  width: 208px;
+  height: 49px;
+  background: transparent;
+  border: 1px solid #E9F4F9;
+  border-radius: 10px;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 15px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #E9F4F9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-action:hover {
+  background: rgba(233, 244, 249, 0.1);
+}
+
+.btn-primary-action {
+  width: 210px;
+  height: 49px;
+  background: linear-gradient(106.53deg, #00B4FD -5.68%, #003ACE 86.98%);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 15px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary-action:hover {
+  opacity: 0.9;
+}
+
+/* ========== RESPONSIVENESS ========== */
+/* Stacks the buttons under the text on tablets and smaller screens */
+@media (max-width: 1100px) {
+  .action-banner-section {
+    height: auto;
+    padding: 80px 0;
+  }
+  .action-banner-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 0 40px;
+  }
+  .action-text-group {
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .action-banner-inner {
+    padding: 0 20px;
+  }
+  .action-headline {
+    font-size: 38px;
+  }
+  .action-btn-group {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .btn-outline-action, .btn-primary-action {
+    width: 100%;
+  }
+}

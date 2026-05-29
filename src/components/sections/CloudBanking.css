@@ -1,0 +1,167 @@
+.cloud-section {
+  width: 100%;
+  background: #000D12; 
+  min-height: 619px; 
+  padding: 80px 0 100px 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.cloud-bg-text {
+  position: absolute;
+  top: -2px;
+  left: -163px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  font-size: 572px;
+  line-height: 120%;
+  opacity: 0.5;
+  
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  color: #000D12; 
+  
+  background: linear-gradient(106.53deg, rgba(0, 180, 253, 0.5) -5.68%, rgba(0, 58, 206, 0.5) 86.98%);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  -webkit-text-stroke: 1.59px transparent;
+}
+
+.cloud-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.cloud-inner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px; 
+  
+  display: grid;
+  grid-template-columns: 607px 651px;
+  justify-content: space-between;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.cloud-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 76px; 
+}
+
+.cloud-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cloud-headline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #E9F4F9;
+  margin: 0;
+}
+
+.cloud-subtext {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #E9F4F9;
+  opacity: 0.8;
+  margin: 0;
+  max-width: 327px; 
+}
+
+.btn-primary-cloud {
+  width: max-content;
+  background: linear-gradient(106.53deg, #00B4FD -5.68%, #003ACE 86.98%);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 51px;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 15px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary-cloud:hover {
+  opacity: 0.9;
+}
+
+.cloud-visuals {
+  width: 100%;
+}
+
+.cloud-image-wrapper {
+  width: 100%;
+  background: linear-gradient(106.53deg, #00B4FD -5.68%, #003ACE 86.98%);
+  padding: 1.05px;
+  border-radius: 15.77px 15.77px 0 0;
+  display: flex;
+}
+
+.cloud-img {
+  width: 100%;
+  height: auto;
+  border-radius: 14.7px 14.7px 0 0; 
+  display: block;
+}
+
+
+
+@media (max-width: 1350px) {
+  .cloud-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .cloud-section {
+    padding: 60px 0;
+  }
+  .cloud-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .cloud-content {
+    margin: 0 auto;
+    margin-top: 0;
+    align-items: center;
+  }
+  .cloud-headline {
+    font-size: 42px;
+  }
+  .cloud-visuals {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cloud-inner {
+    padding: 0 24px;
+  }
+  .cloud-headline {
+    font-size: 34px;
+  }
+  .cloud-subtext {
+    font-size: 15px;
+  }
+  .btn-primary-cloud {
+    width: 100%;
+  }
+}

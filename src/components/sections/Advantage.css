@@ -1,0 +1,191 @@
+.advantage-section {
+  width: 100%;
+  background: #000D12;
+  min-height: 681px;
+  position: relative;
+  
+  overflow: hidden; 
+  
+  padding: 127px 0; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantage-bg-text {
+  position: absolute;
+  top: -160.72px; 
+  left: 223.56px; 
+  
+  z-index: 2; 
+  pointer-events: none;
+  user-select: none;
+}
+
+.advantage-bg-text img {
+  width: 1141px;
+  height: auto;
+  display: block;
+}
+
+.advantage-inner {
+   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px; 
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  background-image: url('../../assets/CB7.png'); 
+  background-repeat: no-repeat;
+  
+  background-position: 224px -288px; 
+  background-size: 1141px auto; 
+}
+
+.advantage-card {
+  width: 100%;
+  height: 427px;
+  border-radius: 27px;
+  background: linear-gradient(99.21deg, #031E2A -12.22%, #000D12 59.26%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 65px;
+  box-sizing: border-box;
+}
+
+.advantage-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 607px;
+}
+
+.advantage-headline {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #E9F4F9;
+  margin: 0;
+}
+
+.advantage-subtext {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #E9F4F9;
+  opacity: 0.8;
+  margin: 0;
+  max-width: 462px;
+}
+
+.advantage-btn-group {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; 
+  align-items: center;
+}
+
+.btn-outline-adv {
+  width: 208px;
+  height: 49px;
+  background: transparent;
+  border: 1px solid #E9F4F9;
+  border-radius: 10px;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 15px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #E9F4F9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-adv:hover {
+  background: #E9F4F9;
+  color: #000D12;
+}
+
+.btn-primary-adv {
+  width: 210px;
+  height: 49px;
+  background: linear-gradient(106.53deg, #00B4FD -5.68%, #003ACE 86.98%);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 15px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary-adv:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+  .advantage-card {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 40px;
+    gap: 40px;
+    text-align: center;
+  }
+  .advantage-text-group {
+    align-items: center;
+  }
+  
+  .advantage-inner {
+    background-size: 800px auto;
+    background-position: center -150px; 
+  }
+}
+@media (max-width: 800px) {
+  .advantage-inner {
+    padding: 0 40px;
+  }
+  .advantage-headline {
+    font-size: 42px;
+  }
+}
+@media (max-width: 600px) {
+  .advantage-inner {
+    padding: 0 20px;
+  }
+  .advantage-card {
+    padding: 40px 20px;
+  }
+  .advantage-headline {
+    font-size: 32px;
+  }
+  .advantage-subtext {
+    font-size: 15px;
+  }
+  
+  .advantage-btn-group {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .btn-outline-adv, .btn-primary-adv {
+    width: 100%;
+  }
+  
+  .advantage-inner {
+    background-size: 400px auto;
+    background-position: center -50px; 
+  }
+}

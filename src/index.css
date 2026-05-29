@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Gilroy-Bold.ttf') format('truetype'); /* fallback if you have multiple formats */
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./assets/fonts/Gilroy-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {  
+  --color-black: #050505; 
+  --color-white: #FFFFFF;
+  --color-blue: #2563EB;  
+  --color-sky: #38BDF8;   
+
+  --bg-body: var(--color-black);       
+  --bg-surface: var(--color-black);   
+  
+  --text-primary: var(--color-white);  
+  --text-secondary: #A0AEC0; 
+  
+  --color-primary: var(--color-blue); 
+  
+  --header-height: 80px;
+  --radius-card: 20px;
+  --radius-button: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}

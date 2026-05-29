@@ -1,0 +1,53 @@
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+}
+
+.feature-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.feature-icon {
+  width: 38px; 
+  height: auto;
+  object-fit: contain;
+}
+
+.feature-tag {
+  font-family: 'Chivo Mono', monospace;
+  font-size: 11px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #E9F4F9;
+  opacity: 0.6;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feature-title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #E9F4F9;
+  margin: 0;
+}
+
+.feature-desc {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E9F4F9;
+  opacity: 0.7;
+  margin: 0;
+}
