@@ -25,7 +25,7 @@ const CloudBanking = () => {
         <div className="cloud-visuals">
           <div className="cloud-image-wrapper">
             <img 
-              src="/src/assets/cloud-dashboard.png" 
+              src="/assets/cloud-dashboard.png" 
               alt="Cloud Dashboard" 
               className="cloud-img" 
             />

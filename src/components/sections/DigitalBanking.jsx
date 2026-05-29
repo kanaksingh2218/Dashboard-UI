@@ -69,8 +69,8 @@ const DigitalBanking = () => {
           {/* Feature 1 */}
           <div className="feature-row">
             <div className="feature-phone">
-              <img src="/src/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
-              <img src="/src/assets/screen-1.png" className="phone-screen" alt="Dashboard" />
+              <img src="/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
+              <img src="/assets/screen-1.png" className="phone-screen" alt="Dashboard" />
             </div>
             <div className="feature-text">
               <h3 className="feature-title">Fully compliant with regulatory requirement</h3>
@@ -94,15 +94,15 @@ const DigitalBanking = () => {
               </ul>
             </div>
             <div className="feature-phone">
-              <img src="/src/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
-              <img src="/src/assets/screen-2.png" className="phone-screen" alt="Stats" />
+              <img src="/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
+              <img src="/assets/screen-2.png" className="phone-screen" alt="Stats" />
             </div>
           </div>
 
           <div className="feature-row">
             <div className="feature-phone">
-              <img src="/src/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
-              <img src="/src/assets/screen-3.png" className="phone-screen" alt="Settings" />
+              <img src="/assets/iphone-frame.png" className="phone-frame" alt="Frame" />
+              <img src="/assets/screen-3.png" className="phone-screen" alt="Settings" />
             </div>
             <div className="feature-text">
               <h3 className="feature-title">No traditional branches</h3>

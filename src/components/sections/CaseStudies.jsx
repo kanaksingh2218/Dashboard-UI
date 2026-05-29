@@ -11,10 +11,10 @@ const CaseStudies = () => {
         <div className="carousel-card-bg-left">
           <div className="bg-card-img">
             <div className="bg-pattern-grid">
-              <img src="/src/assets/insight-vector.png" alt="pattern" />
-              <img src="/src/assets/insight-vector.png" alt="pattern" />
-              <img src="/src/assets/insight-vector.png" alt="pattern" />
-              <img src="/src/assets/insight-vector.png" alt="pattern" />
+              <img src="/assets/insight-vector.png" alt="pattern" />
+              <img src="/assets/insight-vector.png" alt="pattern" />
+              <img src="/assets/insight-vector.png" alt="pattern" />
+              <img src="/assets/insight-vector.png" alt="pattern" />
             </div>
           </div>
           <div className="bg-card-text">
@@ -33,10 +33,10 @@ const CaseStudies = () => {
           
           <div className="case-card-img">
             <div className="case-pattern-grid">
-              <img src="/src/assets/insight-vector.png" className="case-vector" alt="vector" />
-              <img src="/src/assets/insight-vector.png" className="case-vector" alt="vector" />
-              <img src="/src/assets/insight-vector.png" className="case-vector" alt="vector" />
-              <img src="/src/assets/insight-vector.png" className="case-vector" alt="vector" />
+              <img src="/assets/insight-vector.png" className="case-vector" alt="vector" />
+              <img src="/assets/insight-vector.png" className="case-vector" alt="vector" />
+              <img src="/assets/insight-vector.png" className="case-vector" alt="vector" />
+              <img src="/assets/insight-vector.png" className="case-vector" alt="vector" />
             </div>
           </div>
           

@@ -35,10 +35,10 @@ const Insights = () => {
              <div className="insight-img-block">
               
               <div className="insight-pattern-grid">
-                <img src="/src/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
-                <img src="/src/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
-                <img src="/src/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
-                <img src="/src/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
+                <img src="/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
+                <img src="/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
+                <img src="/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
+                <img src="/assets/insight-vector.png" className="pattern-vector" alt="Decoration" />
               </div>
             </div>
             

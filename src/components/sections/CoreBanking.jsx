@@ -8,7 +8,7 @@ const CoreBanking = () => {
         
         <div className="core-visuals">
           <img 
-            src="/src/assets/ckyc-dashboard.png" 
+            src="/assets/ckyc-dashboard.png" 
             alt="CKYC Dashboard" 
             style={{ width: '100%', height: 'auto', display: 'block' }}
           />

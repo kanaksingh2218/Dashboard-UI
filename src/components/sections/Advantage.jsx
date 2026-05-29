@@ -9,7 +9,7 @@ const Advantage = () => {
         
         <div className="advantage-bg-text">
           <img 
-            src="/src/assets/CB7.png" 
+            src="/assets/CB7.png" 
             alt="CB7 Background Watermark" 
           />
         </div>

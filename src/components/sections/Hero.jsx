@@ -32,32 +32,32 @@ const Hero = () => {
           <div className="trusted-logos">
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/shells.png" alt="Shells" className="logo-icon-img" />
+              <img src="/assets/shells.png" alt="Shells" className="logo-icon-img" />
               <span className="logo-text">SHELLS</span>
             </div>
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/smartfinder.png" alt="SmartFinder" className="logo-icon-img" />
+              <img src="/assets/smartfinder.png" alt="SmartFinder" className="logo-icon-img" />
               <span className="logo-text">SmartFinder</span>
             </div>
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/zoomerr.png" alt="Zoomerr" className="logo-icon-img" />
+              <img src="/assets/zoomerr.png" alt="Zoomerr" className="logo-icon-img" />
               <span className="logo-text">Zoomerr</span>
             </div>
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/artvenue.png" alt="ArtVenue" className="logo-icon-img" />
+              <img src="/assets/artvenue.png" alt="ArtVenue" className="logo-icon-img" />
               <span className="logo-text">ArtVenue</span>
             </div>
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/kontrasti.png" alt="Kontrastr" className="logo-icon-img" />
+              <img src="/assets/kontrasti.png" alt="Kontrastr" className="logo-icon-img" />
               <span className="logo-text">Kontrastr</span>
             </div>
             
             <div className="trusted-logo-item">
-              <img src="/src/assets/waves.png" alt="Kontrastr" className="logo-icon-img" />
+              <img src="/assets/waves.png" alt="Kontrastr" className="logo-icon-img" />
               <span className="logo-text waves">WAVESMARATHON</span>
             </div>
 
